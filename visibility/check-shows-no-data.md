@@ -75,5 +75,9 @@ When the search data read itself fails, the check records the error and its mess
 
 ## Related
 
-- [Which AI assistants does Genter check?](./which-ai-engines.md)
-- [Why doesn't ChatGPT mention my product?](./why-ai-doesnt-name-you.md)
+<!-- widget:cards plain cols=2 -->
+
+- [Which AI assistants does Genter check?](./which-ai-engines.md) {radar} {color:cyan}
+- [Why doesn't ChatGPT mention my product?](./why-ai-doesnt-name-you.md) {eye-off} {color:pink}
+
+<!-- /widget -->

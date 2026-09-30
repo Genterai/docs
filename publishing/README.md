@@ -9,4 +9,9 @@ This section answers questions about how Genter writes pages and how they reach 
 
 ## Pages
 
-- [Does Genter publish on its own, or does everything wait for my approval?](./does-genter-publish-on-its-own.md)
+<!-- widget:cards feature cols=2 -->
+
+- [Does Genter publish on its own, or does everything wait for my approval?](./does-genter-publish-on-its-own.md) {git-pull-request} {color:purple}
+- [How does Genter keep pages current when the product changes?](./keeping-pages-current.md) {refresh-cw} {color:green}
+
+<!-- /widget -->

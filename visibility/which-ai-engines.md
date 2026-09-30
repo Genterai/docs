@@ -55,5 +55,9 @@ How many questions the daily check watches, and which of these engines it asks, 
 
 ## Related
 
-- [Why doesn't ChatGPT mention my product?](./why-ai-doesnt-name-you.md)
-- [Why does the mention check show no data?](./check-shows-no-data.md)
+<!-- widget:cards plain cols=2 -->
+
+- [Why doesn't ChatGPT mention my product?](./why-ai-doesnt-name-you.md) {eye-off} {color:pink}
+- [Why does the mention check show no data?](./check-shows-no-data.md) {circle-dashed} {color:gray}
+
+<!-- /widget -->

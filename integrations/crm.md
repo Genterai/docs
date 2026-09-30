@@ -36,4 +36,8 @@ The signup form itself lives on your own site, and your CRM gets the lead from t
 
 ## Related
 
-- [Integrations](./README.md)
+<!-- widget:cards plain cols=2 -->
+
+- [Integrations](./README.md) {plug} {color:gray}
+
+<!-- /widget -->
