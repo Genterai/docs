@@ -8,3 +8,8 @@ description: "Whether ChatGPT, Perplexity, Gemini, Copilot and Google name your 
 This section answers questions about being named: in AI answers (ChatGPT, Perplexity, Gemini, Copilot, Google's AI Overview and AI Mode) and in search results (Google, Bing, Yandex).
 
 ## Pages
+
+- [What are GEO and AEO, and how are they different from SEO?](./geo-vs-seo.md)
+- [Why doesn't ChatGPT mention my product?](./why-ai-doesnt-name-you.md)
+- [Which AI assistants does Genter check?](./which-ai-engines.md)
+- [Why does the mention check show no data?](./check-shows-no-data.md)

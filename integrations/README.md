@@ -8,3 +8,5 @@ description: "What Genter connects to, what it reads from each tool and what it 
 This section answers questions about the tools Genter connects to, and in which direction data flows for each of them.
 
 ## Pages
+
+- [Can leads from my pages go to HubSpot or another CRM?](./crm.md)
