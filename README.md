@@ -3,9 +3,19 @@ title: "Genter documentation"
 description: "Genter is your agent to enter the market. It learns your product, answers your buyers' questions where they ask — ChatGPT, Claude, Google — and proves what worked."
 ---
 
+<!-- widget:cta start hero -->
+
 # Genter — your agent to enter the market
 
 Genter learns your product, answers your buyers' questions where they ask — ChatGPT, Claude, Google — and proves what worked.
+
+- Paste your website address…
+- Does ChatGPT name your product?
+- Who do AI answers name instead of you?
+
+[Check my site](/report)
+
+<!-- /widget -->
 
 These docs answer the questions buyers ask about Genter, in their own words. Each page starts from one question and answers it on the page itself.
 
