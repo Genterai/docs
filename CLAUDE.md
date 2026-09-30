@@ -18,7 +18,7 @@ Every answer page carries (`specs/255` FR-023):
 title: "Why does the mention check show no data?"
 description: "One sentence for search results."
 answers:
-  - "Why does the mention check show “no data”?"   # buyer question, as in buyer-questions.md
+  - "Why does the mention check show “no data”?"  # buyer-questions.md #52
 facts:
   - claim: "A switched-off check checks nothing."
     class: neutral            # neutral | commercial | promise | comparative | legal
@@ -26,7 +26,7 @@ facts:
 ---
 ```
 
-- `answers` — the questions the page closes, word for word from `product/buyer-questions.md`.
+- `answers` — the questions the page closes, as the buyer asks them, in English; each carries its number in `product/buyer-questions.md` as a comment.
 - `facts` — every claim the page makes, with its class (`specs/255` FR-006) and the source it was read from: a file in `Genterai/app` or `Genterai/specs`, or a public URL with the date it was read.
 
 ## Risk policy (`specs/255` FR-024, `decisions/0004`)

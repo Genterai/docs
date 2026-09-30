@@ -8,3 +8,5 @@ description: "How Genter writes pages about your product and how a change goes l
 This section answers questions about how Genter writes pages and how they reach your site.
 
 ## Pages
+
+- [Does Genter publish on its own, or does everything wait for my approval?](./does-genter-publish-on-its-own.md)
