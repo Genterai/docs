@@ -1,0 +1,10 @@
+---
+title: "AI and search visibility"
+description: "Whether ChatGPT, Perplexity, Gemini, Copilot and Google name your product, how Genter checks it, and what the numbers can and cannot tell you."
+---
+
+# AI and search visibility
+
+This section answers questions about being named: in AI answers (ChatGPT, Perplexity, Gemini, Copilot, Google's AI Overview and AI Mode) and in search results (Google, Bing, Yandex).
+
+## Pages
