@@ -39,4 +39,8 @@ Yes. Every change is a pull request in your repository, merged or not. The diff 
 
 ## Related
 
-- [Publishing](./README.md)
+<!-- widget:cards plain cols=2 -->
+
+- [Publishing](./README.md) {plug} {color:gray}
+
+<!-- /widget -->

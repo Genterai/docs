@@ -28,6 +28,15 @@ facts:
 
 Because the number it could print would be noise, and a noisy number reads like a measurement. When the data cannot support a figure, Genter says **Can't tell** and names why.
 
+<!-- widget:cards plain cols=4 -->
+
+- [Too few visits](#too-few-visits) — Fewer than 30 on either side of a change. {users} {color:blue}
+- [The period is not over](#the-period-is-not-over) — Half a week is not comparable to a whole one. {calendar-clock} {color:amber}
+- [Nothing to compare against](#nothing-to-compare-against) — A zero before, or no control group. {scale} {color:purple}
+- [Empty is not zero](#empty-is-not-zero) — Not measured is shown as `—`. {circle-dashed} {color:gray}
+
+<!-- /widget -->
+
 ## Too few visits
 
 - **Below 30 visits,** Genter shows counts, not percentages. "2 of 3 readers left" is a fact; "67% bounce" from three visits is noise.
@@ -44,9 +53,17 @@ A change is judged on a full period after it. Until that period has finished, th
 
 ## Empty is not zero
 
+<!-- widget:callout type=info -->
+
 A figure Genter cannot state is left empty (`—`), never shown as `0`. Zero would read as "we measured and nothing happened"; empty means "not measured".
+
+<!-- /widget -->
 
 ## Related
 
-- [Can I see how many sales the pages brought?](./sales-from-pages.md)
-- [How does Genter keep pages current when the product changes?](../publishing/keeping-pages-current.md)
+<!-- widget:cards plain cols=2 -->
+
+- [Can I see how many sales the pages brought?](./sales-from-pages.md) {circle-dollar-sign} {color:emerald}
+- [How does Genter keep pages current when the product changes?](../publishing/keeping-pages-current.md) {refresh-cw} {color:green}
+
+<!-- /widget -->

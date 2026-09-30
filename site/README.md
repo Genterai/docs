@@ -9,5 +9,9 @@ This section answers questions about the site Genter publishes: its languages, t
 
 ## Pages
 
-- [In which languages and countries does Genter write pages and check answers?](./languages-and-regions.md)
-- [Does Genter work with docs already on Mintlify, GitBook or Docusaurus?](./existing-docs-platforms.md)
+<!-- widget:cards feature cols=2 -->
+
+- [In which languages and countries does Genter write pages and check answers?](./languages-and-regions.md) {languages} {color:sky}
+- [Does Genter work with docs already on Mintlify, GitBook or Docusaurus?](./existing-docs-platforms.md) {book-open} {color:blue}
+
+<!-- /widget -->

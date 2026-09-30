@@ -55,7 +55,11 @@ facts:
 
 Connect a bot once, then answer in the chat the way you would answer a colleague: reply to the bot's message. Your answer reaches the agent, and its answer comes back to the same chat.
 
-## Connect Telegram
+## How do I connect the bot?
+
+<!-- widget:tabs -->
+
+### Telegram {send}
 
 1. In Telegram, open **@BotFather**, send `/newbot` and copy the bot token.
 2. In the panel, open **Integrations** → **Telegram** and paste the token. Genter checks it with Telegram before saving.
@@ -63,20 +67,23 @@ Connect a bot once, then answer in the chat the way you would answer a colleague
 
 One bot token has one webhook: if you connect the same bot on two projects, the last connection wins.
 
-### The bot doesn't react to @mentions in a group
-
-Telegram's **Group Privacy** is on by default, and then a plain `@bot` mention in a group never reaches the bot. `/ask …` and replies to the bot's messages still work. To turn mentions on:
-
-1. In **@BotFather**, open `/mybots` → your bot → **Bot Settings** → **Group Privacy** → **Turn off**.
-2. Remove the bot from the group and add it back.
-
-## Connect Slack
+### Slack {hash}
 
 1. In **Integrations** → **Slack**, create your own Slack app from the prefilled manifest, pick your workspace and **Install to Workspace**.
 2. Paste two values from the Slack app settings: the **Bot User OAuth Token** and the **Signing Secret**.
 3. Copy the events address from the account card and paste it under **Event Subscriptions** in Slack. The card shows **Listening** once Slack has verified it.
 
 The bot joins a public channel itself; a private channel needs `/invite @your-bot`.
+
+<!-- /widget -->
+
+<!-- widget:callout type=warning -->
+
+### The Telegram bot doesn't react to @mentions in a group
+
+Telegram's **Group Privacy** is on by default, and then a plain `@bot` mention in a group never reaches the bot. `/ask …` and replies to the bot's messages still work. To turn mentions on: in **@BotFather**, open `/mybots` → your bot → **Bot Settings** → **Group Privacy** → **Turn off**, then remove the bot from the group and add it back.
+
+<!-- /widget -->
 
 ## How do I answer?
 
@@ -87,8 +94,17 @@ The bot joins a public channel itself; a private channel needs `/invite @your-bo
 | `/ask …` | ✓ | — |
 | Direct message | ✓ | ✓ |
 
-- **While the agent is still working** on the task that asked, your reply joins that work.
-- **After it has finished,** your reply starts a new run that is told what was asked and what you answered.
+<!-- widget:cards plain cols=2 -->
+
+- While the agent is still working {loader} {color:blue}
+
+  On the task that asked, your reply joins that work.
+
+- After it has finished {rotate-ccw} {color:green}
+
+  Your reply starts a new run that is told what was asked and what you answered.
+
+<!-- /widget -->
 
 The answer in the chat is a few lines, business first.
 
@@ -96,11 +112,21 @@ A message that names a project runs on that project. Otherwise it runs on the pr
 
 ## When does the agent write first?
 
-When **Agent writes on its own** is on — the default — the agent posts to the linked chat when it has a question for you or news that needs your decision, with a link to the Inbox letter. It never posts a "task done" note. Turn it off and the agent writes only to the Inbox; the bot still answers anyone who writes to it.
+When **Agent writes on its own** is on — the default — the agent posts to the linked chat when it has a question for you or news that needs your decision, with a link to the Inbox letter. It never posts a "task done" note.
+
+<!-- widget:callout type=note -->
+
+Turn **Agent writes on its own** off and the agent writes only to the Inbox; the bot still answers anyone who writes to it.
+
+<!-- /widget -->
 
 The agent posts only to chats and channels linked to the account.
 
 ## Related
 
-- [How much of my time does Genter take, and what will it ask me?](../getting-started/your-time-and-questions.md)
-- [Integrations](./README.md)
+<!-- widget:cards plain cols=2 -->
+
+- [How much of my time does Genter take, and what will it ask me?](../getting-started/your-time-and-questions.md) {clock} {color:amber}
+- [Integrations](./README.md) {plug} {color:gray}
+
+<!-- /widget -->

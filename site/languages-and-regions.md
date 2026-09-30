@@ -37,6 +37,14 @@ facts:
 
 Pages can be published in **15 languages**. Search results and AI answers are checked in **one region per project**, which you set as a country.
 
+<!-- widget:stats cols=3 -->
+
+- **15** — languages your pages can be published in {languages}
+- **26** — countries in the region picker {globe}
+- **1** — region per project at a time {map-pin}
+
+<!-- /widget -->
+
 ## Which languages can my pages be in?
 
 | | | |
@@ -49,8 +57,17 @@ Pages can be published in **15 languages**. Search results and AI answers are ch
 
 The language your pages are written in is detected from your description, files or website — you don't pick it by hand. Other languages are translations of those pages, in one of three modes: `auto`, `manual` or `external`. Right-to-left scripts such as Arabic are handled.
 
-- **Until a page is translated,** readers see the original page, and the menu stays in the original language with it — never a translated menu over an untranslated page.
-- **Switching a language off** deletes nothing. Switching it back on does not translate unchanged pages again.
+<!-- widget:cards plain cols=2 -->
+
+- Until a page is translated {file-clock} {color:blue}
+
+  Readers see the original page, and the menu stays in the original language with it — never a translated menu over an untranslated page.
+
+- Switching a language off {toggle-left} {color:green}
+
+  Deletes nothing. Switching it back on does not translate unchanged pages again.
+
+<!-- /widget -->
 
 ## In which country are answers checked?
 
@@ -62,8 +79,16 @@ Any other valid two-letter country code is accepted too.
 
 ## Can one project be checked in several countries?
 
+<!-- widget:callout type=note -->
+
 A project is checked in one region at a time. Answers differ by country, so a reading for `de` says nothing about `us`.
+
+<!-- /widget -->
 
 ## Related
 
-- [Which AI assistants does Genter check?](../visibility/which-ai-engines.md)
+<!-- widget:cards plain cols=2 -->
+
+- [Which AI assistants does Genter check?](../visibility/which-ai-engines.md) {radar} {color:cyan}
+
+<!-- /widget -->

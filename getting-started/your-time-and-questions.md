@@ -32,10 +32,17 @@ As little as the work allows. Genter works on its own and writes to you only whe
 
 Letters in the **Inbox**, of two kinds:
 
-| Letter | When |
-|---|---|
-| **Report** | Something happened that is worth your reading |
-| **Question** | The agent needs a decision it cannot make from your code, pages or data |
+<!-- widget:cards plain cols=2 -->
+
+- Report {file-text} {color:blue}
+
+  Something happened that is worth your reading.
+
+- Question {circle-question-mark} {color:amber}
+
+  The agent needs a decision it cannot make from your code, pages or data.
+
+<!-- /widget -->
 
 A letter is short and can carry cards for the records it is about — a phrase, an issue, a pull request — so you open the thing itself, not a description of it.
 
@@ -47,17 +54,38 @@ After the first run that writes your pages, the report lists what the agent coul
 
 ## Do I have to answer right away?
 
+<!-- widget:callout type=success -->
+
 No. The agent does not stop and wait, and it does not ask again just because a question is still open. It carries on with the work that does not depend on your answer.
+
+<!-- /widget -->
 
 ## Where do I answer?
 
 Wherever is easiest:
 
-- in the **Inbox**, by replying to the letter
-- in the **chat** in the panel
-- in a linked **Telegram** or **Slack** chat — see [How do I answer Genter's questions from Telegram or Slack?](../integrations/telegram-and-slack.md)
+<!-- widget:cards plain cols=4 -->
+
+- Inbox {inbox} {color:blue}
+
+  Reply to the letter.
+
+- Chat {message-square} {color:purple}
+
+  Answer in the chat in the panel.
+
+- [Telegram](../integrations/telegram-and-slack.md) — Reply in a linked Telegram chat. {logos:telegram}
+- [Slack](../integrations/telegram-and-slack.md) — Reply in a linked Slack chat. {logos:slack-icon}
+
+<!-- /widget -->
+
+How to link a chat: [How do I answer Genter's questions from Telegram or Slack?](../integrations/telegram-and-slack.md)
 
 ## Related
 
-- [Does Genter publish on its own, or does everything wait for my approval?](../publishing/does-genter-publish-on-its-own.md)
-- [How do I answer Genter's questions from Telegram or Slack?](../integrations/telegram-and-slack.md)
+<!-- widget:cards plain cols=2 -->
+
+- [Does Genter publish on its own, or does everything wait for my approval?](../publishing/does-genter-publish-on-its-own.md) {git-pull-request} {color:purple}
+- [How do I answer Genter's questions from Telegram or Slack?](../integrations/telegram-and-slack.md) {message-circle} {color:sky}
+
+<!-- /widget -->

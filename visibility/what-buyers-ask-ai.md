@@ -26,7 +26,15 @@ facts:
 
 # What questions do people ask ChatGPT about my product?
 
-No one outside OpenAI can see what people type into ChatGPT, and Genter does not claim to. It gets close from three sides you can check.
+No one outside OpenAI can see what people type into ChatGPT, and Genter does not claim to. It gets close from three sides you can check:
+
+<!-- widget:cards plain cols=3 -->
+
+- [Which questions are likely](#which-questions-are-likely) — From your product and from where buyers already ask. {list-checks} {color:blue}
+- [How many people ask them](#how-many-people-ask-them) — Prompt demand: the search demand behind a prompt. {chart-column} {color:green}
+- [What ChatGPT answers](#what-does-chatgpt-answer) — The prompt put to the assistants, answer recorded. {message-square} {color:purple}
+
+<!-- /widget -->
 
 ## Which questions are likely?
 
@@ -38,7 +46,11 @@ The questions readers type into the assistant on **your own site** are recorded 
 
 Genter measures **prompt demand**: the search demand behind a prompt, not the number of people who type it. For each prompt it asks several AI models which searches the prompt turns into, and measures the search volume of up to ten of them, in your project's region.
 
+<!-- widget:callout type=info -->
+
 Demand that was not measured is shown as empty, never as `0` — an empty cell means "not known", not "nobody asks".
+
+<!-- /widget -->
 
 ## What does ChatGPT answer?
 
@@ -46,5 +58,9 @@ Genter can put the prompt to ChatGPT, Gemini, Perplexity, Copilot and Google's A
 
 ## Related
 
-- [Where does Genter learn which questions my buyers ask?](./where-questions-come-from.md)
-- [Why doesn't ChatGPT mention my product?](./why-ai-doesnt-name-you.md)
+<!-- widget:cards plain cols=2 -->
+
+- [Where does Genter learn which questions my buyers ask?](./where-questions-come-from.md) {search} {color:amber}
+- [Why doesn't ChatGPT mention my product?](./why-ai-doesnt-name-you.md) {eye-off} {color:pink}
+
+<!-- /widget -->

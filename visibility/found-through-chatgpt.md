@@ -32,17 +32,39 @@ Look at the **AI assistant** channel. Genter counts visits that arrive from an A
 
 A visit is counted as **AI assistant** when it arrives from one of these sites:
 
-- `chatgpt.com`, `chat.openai.com`
-- `perplexity.ai`
-- `claude.ai`
-- `copilot.microsoft.com`
-- `gemini.google.com`
+<!-- widget:cards bare cols=3 -->
+
+- ChatGPT {logos:openai-icon}
+
+  `chatgpt.com`, `chat.openai.com`
+
+- Perplexity {logos:perplexity-icon}
+
+  `perplexity.ai`
+
+- Claude {logos:claude-icon}
+
+  `claude.ai`
+
+- Copilot {sparkles}
+
+  `copilot.microsoft.com`
+
+- Gemini {logos:google-gemini-icon}
+
+  `gemini.google.com`
+
+<!-- /widget -->
 
 Bots and your own team's visits are left out, so the count is readers.
 
 ## Why can the number be lower than what customers tell me?
 
+<!-- widget:callout type=warning -->
+
 It is a **floor**. Genter can only see an assistant when the visit carries it as the referrer. When a browser or an app strips the referrer — or the customer types your address after reading the answer — the visit is counted as **Direct**.
+
+<!-- /widget -->
 
 Sources are read from what the browser reports. A spoofed referrer is taken at face value.
 
@@ -56,5 +78,9 @@ No. Genter counts visits by channel; it does not tie a single customer, lead or 
 
 ## Related
 
-- [How many visitors am I losing because people ask AI instead of Google?](./visitors-lost-to-ai.md)
-- [Which AI assistants does Genter check?](./which-ai-engines.md)
+<!-- widget:cards plain cols=2 -->
+
+- [How many visitors am I losing because people ask AI instead of Google?](./visitors-lost-to-ai.md) {trending-down} {color:rose}
+- [Which AI assistants does Genter check?](./which-ai-engines.md) {radar} {color:cyan}
+
+<!-- /widget -->

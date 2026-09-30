@@ -36,7 +36,17 @@ By tracking the state of every page, reading your product's current sources befo
 
 ## Where do current facts come from?
 
-From **sources** you connect: your repository, your website, or a single page. The agent reads them as material when it writes or updates a page, so a new fact enters the page from the place where your product is described, not from memory.
+From **sources** you connect:
+
+<!-- widget:cards plain cols=3 -->
+
+- Your repository {git-branch} {color:purple}
+- Your website {globe} {color:blue}
+- A single page {file-text} {color:green}
+
+<!-- /widget -->
+
+The agent reads them as material when it writes or updates a page, so a new fact enters the page from the place where your product is described, not from memory.
 
 ## How do I know which pages are trusted?
 
@@ -52,11 +62,33 @@ Every page carries a **status** and a **version** in its own frontmatter, so bot
 | Deprecated | Still published, no longer current |
 | Archived | Out of use |
 
+<!-- widget:callout type=info -->
+
 Agents build new work only on **Approved** or **Locked** pages. Editing an approved page raises its version and returns it to **In review**: the sign-off was for the old text.
+
+<!-- /widget -->
 
 ## How does an update reach the site?
 
-As a pull request. The project's review mode decides whether it merges at once or waits for you — see [Does Genter publish on its own?](./does-genter-publish-on-its-own.md)
+<!-- widget:stepper -->
+
+### The agent reads your sources
+
+When it writes or updates a page, it reads your repository, website or page as material.
+
+### A pull request is opened
+
+Every update goes through a pull request you can review.
+
+### Review mode decides
+
+The project's review mode decides whether it merges at once or waits for you — see [Does Genter publish on its own?](./does-genter-publish-on-its-own.md)
+
+### The change history compares
+
+14 days later, traffic in the 7 days before the commit is compared with the 7 days after.
+
+<!-- /widget -->
 
 ## Did the update help?
 
@@ -64,5 +96,9 @@ The **change history** lists each documentation commit and compares traffic in t
 
 ## Related
 
-- [Does Genter publish on its own, or does everything wait for my approval?](./does-genter-publish-on-its-own.md)
-- [Does Genter work with docs already on Mintlify, GitBook or Docusaurus?](../site/existing-docs-platforms.md)
+<!-- widget:cards plain cols=2 -->
+
+- [Does Genter publish on its own, or does everything wait for my approval?](./does-genter-publish-on-its-own.md) {git-pull-request} {color:purple}
+- [Does Genter work with docs already on Mintlify, GitBook or Docusaurus?](../site/existing-docs-platforms.md) {book-open} {color:blue}
+
+<!-- /widget -->

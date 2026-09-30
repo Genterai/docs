@@ -32,10 +32,25 @@ Yes — as an **estimate**, not as a count of orders. Genter does not see your p
 
 From two settings you give it:
 
-1. **A call-to-action link** — where a buyer goes to sign up or buy, for example `app.acme.com/signup`.
-2. **An average product price.**
+<!-- widget:cards plain cols=2 -->
 
-A visit that clicks through to that link's host counts as a **conversion**. Revenue is conversions × your average price.
+- A call-to-action link {link} {color:blue}
+
+  Where a buyer goes to sign up or buy, for example `app.acme.com/signup`.
+
+- An average product price {tag} {color:green}
+
+  What one sale is worth to you on average.
+
+<!-- /widget -->
+
+A visit that clicks through to that link's host counts as a **conversion**.
+
+<!-- widget:callout type=info -->
+
+**Revenue = conversions × your average price.**
+
+<!-- /widget -->
 
 Until both settings are there, revenue stays empty — not `$0` — and the panel says which one is missing: "Set an average product price" or "Set a CTA URL".
 
@@ -51,10 +66,18 @@ A share of your average price, based on how closely that reader's visit resemble
 
 ## Can Genter use my real orders?
 
+<!-- widget:callout type=warning -->
+
 No. Genter does not import orders and does not send conversions to a CRM or billing system. For the real number, match the estimate against your own sales records.
+
+<!-- /widget -->
 
 ## Related
 
-- [How do I mark what counts as a lead or a sale?](./mark-a-lead-or-sale.md)
-- [Why does Genter say "can't tell" instead of a number?](./cant-tell.md)
-- [Can leads from my pages go to HubSpot or another CRM?](../integrations/crm.md)
+<!-- widget:cards plain cols=2 -->
+
+- [How do I mark what counts as a lead or a sale?](./mark-a-lead-or-sale.md) {target} {color:red}
+- [Why does Genter say "can't tell" instead of a number?](./cant-tell.md) {circle-question-mark} {color:amber}
+- [Can leads from my pages go to HubSpot or another CRM?](../integrations/crm.md) {handshake} {color:orange}
+
+<!-- /widget -->

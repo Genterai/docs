@@ -39,19 +39,45 @@ Install Genter's **GitHub App** on the organization. You choose which repositori
 
 ## Steps
 
-1. In the panel, open **Integrations** and choose **GitHub**.
-2. Connect. GitHub opens its install screen.
-3. Pick the **organization**.
-4. Choose **All repositories**, or **Only select repositories** and tick the ones Genter should see.
-5. Install. GitHub brings you back to the panel with the organization connected.
+<!-- widget:stepper -->
+
+### Open GitHub in Integrations
+
+In the panel, open **Integrations** and choose **GitHub**.
+
+### Connect
+
+GitHub opens its install screen.
+
+### Pick the organization
+
+Choose the **organization** to install on.
+
+### Choose the repositories
+
+**All repositories**, or **Only select repositories** and tick the ones Genter should see.
+
+### Install
+
+GitHub brings you back to the panel with the organization connected.
+
+<!-- /widget -->
+
+<!-- widget:callout type=tip -->
 
 If GitHub does not bring you back, connect again: Genter finds the installation that belongs to your sign-in.
+
+<!-- /widget -->
 
 No token is stored for the connection: it is the App installation itself.
 
 ## I'm a member, not an owner, of the organization
 
+<!-- widget:callout type=note -->
+
 If you cannot install apps on the organization, GitHub sends your request to an organization owner. The connection appears once an owner approves it.
+
+<!-- /widget -->
 
 ## What can the agent do with it?
 
@@ -67,5 +93,9 @@ To keep your team's projects together, open your organization in Genter first: p
 
 ## Related
 
-- [Can I use Genter without GitHub?](../getting-started/without-github.md)
-- [Integrations](./README.md)
+<!-- widget:cards plain cols=2 -->
+
+- [Can I use Genter without GitHub?](../getting-started/without-github.md) {log-in} {color:blue}
+- [Integrations](./README.md) {plug} {color:gray}
+
+<!-- /widget -->

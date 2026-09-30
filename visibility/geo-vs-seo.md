@@ -46,5 +46,9 @@ A page that fails SEO basics — not indexed, blocked from crawling — cannot b
 
 ## Related
 
-- [Why doesn't ChatGPT mention my product?](./why-ai-doesnt-name-you.md)
-- [Which AI assistants does Genter check?](./which-ai-engines.md)
+<!-- widget:cards plain cols=2 -->
+
+- [Why doesn't ChatGPT mention my product?](./why-ai-doesnt-name-you.md) {eye-off} {color:pink}
+- [Which AI assistants does Genter check?](./which-ai-engines.md) {radar} {color:cyan}
+
+<!-- /widget -->

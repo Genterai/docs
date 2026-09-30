@@ -39,14 +39,31 @@ With **goals**. A goal names one thing a reader does on your pages that matters 
 
 ## What can a goal be?
 
-| Kind | Counts when a reader… | Example |
-|---|---|---|
-| **Page** | opens a page | the "Thank you" page after a request |
-| **Section** | scrolls to a heading | reaches "Pricing" on a long page |
-| **Action** | does something the pages already track | copies code, searches, asks the assistant |
-| **Link out** | leaves for another site, matched by host | clicks through to `app.example.com/signup` |
+<!-- widget:cards plain cols=2 -->
+
+- Page {file-check} {color:green}
+
+  Counts when a reader opens a page. Example: the "Thank you" page after a request.
+
+- Section {heading} {color:blue}
+
+  Counts when a reader scrolls to a heading. Example: reaches "Pricing" on a long page.
+
+- Action {mouse-pointer-click} {color:purple}
+
+  Counts when a reader does something the pages already track. Example: copies code, searches, asks the assistant.
+
+- Link out {external-link} {color:amber}
+
+  Counts when a reader leaves for another site, matched by host. Example: clicks through to `app.example.com/signup`.
+
+<!-- /widget -->
+
+<!-- widget:callout type=note -->
 
 A goal counts **once per visit**, however many times the reader does it in that visit. A goal on an action the pages never track is refused, because it could never fire.
+
+<!-- /widget -->
 
 ## How do I give a goal a value?
 
@@ -54,8 +71,17 @@ Set a value per completion — for example, what a signup is worth to you. Witho
 
 ## How do I create one?
 
-- **In the panel:** open **Analytics** → **Goals** and press **New goal**.
-- **In chat:** ask the agent, for example "count clicks to our signup page as a lead".
+<!-- widget:tabs -->
+
+### In the panel {layout-dashboard}
+
+Open **Analytics** → **Goals** and press **New goal**.
+
+### In chat {message-square}
+
+Ask the agent, for example "count clicks to our signup page as a lead".
+
+<!-- /widget -->
 
 Both go through the same checks. A new goal is matched against visits already recorded, so numbers appear without waiting for new traffic.
 
@@ -67,9 +93,17 @@ Editing a goal keeps its history; deleting it archives it.
 
 ## What goals do not see
 
+<!-- widget:callout type=warning -->
+
 Goals count what readers do **on your pages**. They do not read your payments or your CRM: the sale itself happens on your site, and a goal counts the step that leads to it.
+
+<!-- /widget -->
 
 ## Related
 
-- [Can I see how many sales the pages brought?](./sales-from-pages.md)
-- [Can leads from my pages go to HubSpot or another CRM?](../integrations/crm.md)
+<!-- widget:cards plain cols=2 -->
+
+- [Can I see how many sales the pages brought?](./sales-from-pages.md) {circle-dollar-sign} {color:emerald}
+- [Can leads from my pages go to HubSpot or another CRM?](../integrations/crm.md) {handshake} {color:orange}
+
+<!-- /widget -->

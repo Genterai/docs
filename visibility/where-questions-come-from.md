@@ -31,6 +31,15 @@ facts:
 
 From four places. None of them is ChatGPT's own log: what people type there is not visible to anyone outside OpenAI.
 
+<!-- widget:cards plain cols=4 -->
+
+- [Your own readers](#1-your-own-readers) {users} {color:blue}
+- [Search demand](#2-search-demand) {search} {color:green}
+- [Your product](#3-your-product) {box} {color:purple}
+- [Support and sales tools](#4-support-and-sales-tools-you-connect) {headset} {color:amber}
+
+<!-- /widget -->
+
 ## 1. Your own readers
 
 - **The assistant on your site.** Every question readers ask it is recorded; identical wordings are grouped, with how many went unanswered — for example, "asked 11 times, 9 unanswered".
@@ -49,16 +58,30 @@ What the sources don't show, it asks you instead of guessing.
 
 ## 4. Support and sales tools you connect
 
-| Tool | What Genter reads |
-|---|---|
-| Intercom | Support conversations and help articles |
-| Zendesk | Tickets and help articles |
-| HubSpot | Call notes and emails on deals, and contacts |
+<!-- widget:cards bare cols=3 -->
+
+- Intercom {logos:intercom-icon}
+
+  Support conversations and help articles.
+
+- Zendesk {logos:zendesk-icon}
+
+  Tickets and help articles.
+
+- HubSpot {logos:hubspot}
+
+  Call notes and emails on deals, and contacts.
+
+<!-- /widget -->
 
 These are the questions your team already answers one by one, which a page could answer once.
 
 ## Related
 
-- [What questions do people ask ChatGPT about my product?](./what-buyers-ask-ai.md)
-- [How much of my time does it take, and what will Genter ask me?](../getting-started/your-time-and-questions.md)
-- [Can leads from my pages go to HubSpot or another CRM?](../integrations/crm.md)
+<!-- widget:cards plain cols=2 -->
+
+- [What questions do people ask ChatGPT about my product?](./what-buyers-ask-ai.md) {message-square} {color:blue}
+- [How much of my time does it take, and what will Genter ask me?](../getting-started/your-time-and-questions.md) {clock} {color:amber}
+- [Can leads from my pages go to HubSpot or another CRM?](../integrations/crm.md) {handshake} {color:orange}
+
+<!-- /widget -->

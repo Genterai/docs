@@ -30,9 +30,21 @@ Yes. You can sign in, create a project and have a live site without a GitHub acc
 
 ## How do I start without GitHub?
 
-1. **Sign in with your email.** Genter sends a one-time code; no GitHub login is needed.
-2. **Give Genter something about your product** — any one of these is enough: a name, your website, files, or a short description.
-3. **Let Genter host the site.** There is nothing to connect, and the site is live straight away.
+<!-- widget:stepper -->
+
+### Sign in with your email
+
+Genter sends a one-time code; no GitHub login is needed.
+
+### Give Genter something about your product
+
+Any one of these is enough: a name, your website, files, or a short description.
+
+### Let Genter host the site
+
+There is nothing to connect, and the site is live straight away.
+
+<!-- /widget -->
 
 The site address is set in the panel, and it does not depend on GitHub either.
 
@@ -48,5 +60,9 @@ Only if you want the pages in a repository you own:
 
 ## Related
 
-- [Do I need a programmer to start with Genter?](./no-programmer-needed.md)
-- [How do I upload a document about what we sell if there's no website?](./upload-a-document.md)
+<!-- widget:cards plain cols=2 -->
+
+- [Do I need a programmer to start with Genter?](./no-programmer-needed.md) {rocket} {color:green}
+- [How do I upload a document about what we sell if there's no website?](./upload-a-document.md) {file-up} {color:purple}
+
+<!-- /widget -->

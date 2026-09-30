@@ -20,9 +20,20 @@ facts:
 
 # How many visitors am I losing because people ask AI instead of Google?
 
+<!-- widget:callout type=note -->
+
 Genter does not put a number on it. A visit that never happened leaves no trace on your site, so any "visitors lost" figure would be a guess, and Genter does not print guesses as measurements.
 
-What Genter measures instead are the two sides you can see.
+<!-- /widget -->
+
+What Genter measures instead are the two sides you can see:
+
+<!-- widget:cards plain cols=2 -->
+
+- [How many visitors AI sends you](#how-many-visitors-does-ai-send-me) — Visits from an AI assistant's answer, counted as their own channel. {bot} {color:blue}
+- [Where AI answers without you](#where-does-ai-answer-without-me) — The mention check, on your buyers' saved questions. {radar} {color:purple}
+
+<!-- /widget -->
 
 ## How many visitors does AI send me?
 
@@ -36,10 +47,18 @@ The **mention check** asks your buyers' saved questions to AI assistants and sea
 - where you rank in the search results
 - who else is named or ranked instead
 
+<!-- widget:callout type=tip -->
+
 A question where the answer names a competitor and not you is the visitor you are not getting — named, not estimated.
+
+<!-- /widget -->
 
 ## Related
 
-- [Customers say they found us through ChatGPT — how do I check?](./found-through-chatgpt.md)
-- [Why doesn't ChatGPT mention my product?](./why-ai-doesnt-name-you.md)
-- [Which AI assistants does Genter check?](./which-ai-engines.md)
+<!-- widget:cards plain cols=2 -->
+
+- [Customers say they found us through ChatGPT — how do I check?](./found-through-chatgpt.md) {bot} {color:teal}
+- [Why doesn't ChatGPT mention my product?](./why-ai-doesnt-name-you.md) {eye-off} {color:pink}
+- [Which AI assistants does Genter check?](./which-ai-engines.md) {radar} {color:cyan}
+
+<!-- /widget -->

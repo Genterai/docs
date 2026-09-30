@@ -39,8 +39,27 @@ Attach it when you create the project. A website is not needed: a document, or a
 
 ## Which files can I attach?
 
-- **PDF**, **DOCX**, **Markdown** (`.md`, `.markdown`, `.mdx`) or **plain text**
-- up to **15 MB** each
+<!-- widget:cards plain cols=4 -->
+
+- PDF {file-text} {color:red}
+
+  `.pdf`
+
+- DOCX {file-type} {color:blue}
+
+  `.docx`
+
+- Markdown {file-code} {color:purple}
+
+  `.md`, `.markdown`, `.mdx`
+
+- Plain text {file} {color:gray}
+
+  `.txt`
+
+<!-- /widget -->
+
+Each file can be up to **15 MB**.
 
 Files are turned into text when the project is created, without an AI model. Text beyond about 120,000 characters is cut, and the cut is marked. A file with no readable text — a scanned image in a PDF, for example — is named as unreadable, not skipped silently.
 
@@ -50,11 +69,21 @@ Images you add are kept so pages can show them. The agent reads text; it does no
 
 It becomes **material for the agent**. With no website to read, the agent writes your pages from your description and files: it does not go looking for a site, it keeps the pages to what your material supports, and it lists what it could not confirm as questions in its report.
 
-If the run cannot start, your files are not lost: they are published as pages instead. Pages are as public as your site is — keep a confidential document out of a public project.
+If the run cannot start, your files are not lost: they are published as pages instead.
+
+<!-- widget:callout type=warning -->
+
+Pages are as public as your site is — keep a confidential document out of a public project.
+
+<!-- /widget -->
 
 The description you type is a brief for the agent. It is never shown as a page.
 
 ## Related
 
-- [Can I use Genter without GitHub?](./without-github.md)
-- [How much of my time does Genter take, and what will it ask me?](./your-time-and-questions.md)
+<!-- widget:cards plain cols=2 -->
+
+- [Can I use Genter without GitHub?](./without-github.md) {log-in} {color:blue}
+- [How much of my time does Genter take, and what will it ask me?](./your-time-and-questions.md) {clock} {color:amber}
+
+<!-- /widget -->

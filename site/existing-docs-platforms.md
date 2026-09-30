@@ -31,20 +31,52 @@ Connect your published docs as a source by pasting their address. The agent read
 
 Recognised platforms:
 
-- Mintlify, GitBook, ReadMe, Docusaurus, Read the Docs
-- MkDocs, Nextra, Fumadocs, VitePress, Starlight, Docsify
-- Archbee, Document360, Redocly, Stoplight, Scalar, Bump.sh
+<!-- widget:cards bare cols=3 -->
+
+- Mintlify {simple-icons:mintlify}
+- GitBook {simple-icons:gitbook}
+- ReadMe {simple-icons:readme}
+- Docusaurus {logos:docusaurus}
+- Read the Docs {simple-icons:readthedocs}
+- MkDocs {book-open}
+- Nextra {simple-icons:nextra}
+- Fumadocs {book-open}
+- VitePress {simple-icons:vitepress}
+- Starlight {book-open}
+- Docsify {simple-icons:docsify}
+- Archbee {book-open}
+- Document360 {book-open}
+- Redocly {book-open}
+- Stoplight {logos:stoplight}
+- Scalar {simple-icons:scalar}
+- Bump.sh {book-open}
+
+<!-- /widget -->
 
 ## How much of my site does it read?
 
-It starts from the site's sitemap. Without a sitemap, only the entry page is read — and the result says so, so a short read is not mistaken for a short site.
+It starts from the site's sitemap.
+
+<!-- widget:callout type=note -->
+
+Without a sitemap, only the entry page is read — and the result says so, so a short read is not mistaken for a short site.
+
+<!-- /widget -->
 
 Before writing, the agent is told how many documentation pages your source has and how many your Genter site has, so the gap is visible.
 
 ## Can Genter edit my pages on Mintlify or GitBook?
 
+<!-- widget:callout type=warning -->
+
 No. No Genter connector writes to these platforms.
+
+<!-- /widget -->
 
 ## Related
 
-- [Can I use Genter without GitHub?](../getting-started/without-github.md)
+<!-- widget:cards plain cols=2 -->
+
+- [Can I use Genter without GitHub?](../getting-started/without-github.md) {log-in} {color:blue}
+
+<!-- /widget -->

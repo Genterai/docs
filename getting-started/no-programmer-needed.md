@@ -29,10 +29,14 @@ No. Creating a project in Genter is a form, not a setup: you write no code and i
 
 One of these is enough:
 
-- a project name
-- your website
-- files about your product
-- a short description of what you sell
+<!-- widget:cards plain cols=4 -->
+
+- A project name {tag} {color:green}
+- Your website {globe} {color:blue}
+- Files about your product {file-text} {color:purple}
+- A short description of what you sell {message-square} {color:yellow}
+
+<!-- /widget -->
 
 Genter then builds the site in one step: a template, your branding taken from your website, and your files. The site address comes from the project name and is checked for availability before the project is created.
 
@@ -42,9 +46,17 @@ An agent. After the project is created, it drafts the pages from your website â€
 
 ## When is a technical person useful?
 
+<!-- widget:callout type=tip -->
+
 Only for steps you choose to take later, such as publishing to your own GitHub repository or pointing your own domain at the site. Starting does not need them.
+
+<!-- /widget -->
 
 ## Related
 
-- [Can I use Genter without GitHub?](./without-github.md)
-- [How do I upload a document about what we sell if there's no website?](./upload-a-document.md)
+<!-- widget:cards plain cols=2 -->
+
+- [Can I use Genter without GitHub?](./without-github.md) {log-in} {color:blue}
+- [How do I upload a document about what we sell if there's no website?](./upload-a-document.md) {file-up} {color:purple}
+
+<!-- /widget -->
