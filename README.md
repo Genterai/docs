@@ -11,8 +11,11 @@ These docs answer the questions buyers ask about Genter, in their own words. Eac
 
 ## Sections
 
+- [Getting started](./getting-started/README.md) — what you need to start, and what Genter will ask of you
 - [AI and search visibility](./visibility/README.md) — whether AI assistants and search engines name your product, and why they don't
-- [Publishing](./publishing/README.md) — how Genter writes pages and how they go live
+- [Publishing](./publishing/README.md) — how Genter writes pages, how they go live and how they stay current
+- [Your site](./site/README.md) — languages, regions, and docs you already have elsewhere
+- [Results](./results/README.md) — leads, sales, and when the data is too thin to say
 - [Integrations](./integrations/README.md) — what Genter connects to, and in which direction data flows
 
 ## How to read these pages

@@ -10,3 +10,4 @@ This section answers questions about how Genter writes pages and how they reach 
 ## Pages
 
 - [Does Genter publish on its own, or does everything wait for my approval?](./does-genter-publish-on-its-own.md)
+- [How does Genter keep pages current when the product changes?](./keeping-pages-current.md)

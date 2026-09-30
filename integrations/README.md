@@ -10,3 +10,5 @@ This section answers questions about the tools Genter connects to, and in which 
 ## Pages
 
 - [Can leads from my pages go to HubSpot or another CRM?](./crm.md)
+- [How do I connect a whole GitHub organization?](./github-organization.md)
+- [How do I answer Genter's questions from Telegram or Slack?](./telegram-and-slack.md)
