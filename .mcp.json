@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "genter-agent": {
+      "type": "http",
+      "url": "https://www.genter.ai/api/mcp/server",
+      "headers": { "Authorization": "Bearer ${GENTER_AGENT_TOKEN}" }
+    }
+  }
+}
