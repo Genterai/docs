@@ -34,11 +34,11 @@ Letters in the **Inbox**, of two kinds:
 
 <!-- widget:cards plain cols=2 -->
 
-- Report {file-text} {color:blue}
+- Report {file-text}
 
   Something happened that is worth your reading.
 
-- Question {circle-question-mark} {color:amber}
+- Question {circle-question-mark}
 
   The agent needs a decision it cannot make from your code, pages or data.
 
@@ -66,11 +66,11 @@ Wherever is easiest:
 
 <!-- widget:cards plain cols=4 -->
 
-- Inbox {inbox} {color:blue}
+- Inbox {inbox}
 
   Reply to the letter.
 
-- Chat {message-square} {color:purple}
+- Chat {message-square}
 
   Answer in the chat in the panel.
 
@@ -85,7 +85,7 @@ How to link a chat: [How do I answer Genter's questions from Telegram or Slack?]
 
 <!-- widget:cards plain cols=2 -->
 
-- [Does Genter publish on its own, or does everything wait for my approval?](../publishing/does-genter-publish-on-its-own.md) {git-pull-request} {color:purple}
-- [How do I answer Genter's questions from Telegram or Slack?](../integrations/telegram-and-slack.md) {message-circle} {color:sky}
+- [Does Genter publish on its own, or does everything wait for my approval?](../publishing/does-genter-publish-on-its-own.md) {git-pull-request}
+- [How do I answer Genter's questions from Telegram or Slack?](../integrations/telegram-and-slack.md) {message-circle}
 
 <!-- /widget -->

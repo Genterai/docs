@@ -11,8 +11,8 @@ This section answers questions about measuring what your pages bring: leads, sal
 
 <!-- widget:cards feature cols=2 -->
 
-- [How do I mark what counts as a lead or a sale?](./mark-a-lead-or-sale.md) {target} {color:red}
-- [Can I see how many sales the pages brought?](./sales-from-pages.md) {circle-dollar-sign} {color:emerald}
-- [Why does Genter say "can't tell" instead of a number?](./cant-tell.md) {circle-question-mark} {color:amber}
+- [How do I mark what counts as a lead or a sale?](./mark-a-lead-or-sale.md) {target}
+- [Can I see how many sales the pages brought?](./sales-from-pages.md) {circle-dollar-sign}
+- [Why does Genter say "can't tell" instead of a number?](./cant-tell.md) {circle-question-mark}
 
 <!-- /widget -->

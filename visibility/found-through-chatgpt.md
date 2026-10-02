@@ -80,7 +80,7 @@ No. Genter counts visits by channel; it does not tie a single customer, lead or 
 
 <!-- widget:cards plain cols=2 -->
 
-- [How many visitors am I losing because people ask AI instead of Google?](./visitors-lost-to-ai.md) {trending-down} {color:rose}
-- [Which AI assistants does Genter check?](./which-ai-engines.md) {radar} {color:cyan}
+- [How many visitors am I losing because people ask AI instead of Google?](./visitors-lost-to-ai.md) {trending-down}
+- [Which AI assistants does Genter check?](./which-ai-engines.md) {radar}
 
 <!-- /widget -->

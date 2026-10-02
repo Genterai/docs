@@ -33,10 +33,10 @@ From four places. None of them is ChatGPT's own log: what people type there is n
 
 <!-- widget:cards plain cols=4 -->
 
-- [Your own readers](#1-your-own-readers) {users} {color:blue}
-- [Search demand](#2-search-demand) {search} {color:green}
-- [Your product](#3-your-product) {box} {color:purple}
-- [Support and sales tools](#4-support-and-sales-tools-you-connect) {headset} {color:amber}
+- [Your own readers](#1-your-own-readers) {users}
+- [Search demand](#2-search-demand) {search}
+- [Your product](#3-your-product) {box}
+- [Support and sales tools](#4-support-and-sales-tools-you-connect) {headset}
 
 <!-- /widget -->
 
@@ -80,8 +80,8 @@ These are the questions your team already answers one by one, which a page could
 
 <!-- widget:cards plain cols=2 -->
 
-- [What questions do people ask ChatGPT about my product?](./what-buyers-ask-ai.md) {message-square} {color:blue}
-- [How much of my time does it take, and what will Genter ask me?](../getting-started/your-time-and-questions.md) {clock} {color:amber}
-- [Can leads from my pages go to HubSpot or another CRM?](../integrations/crm.md) {handshake} {color:orange}
+- [What questions do people ask ChatGPT about my product?](./what-buyers-ask-ai.md) {message-square}
+- [How much of my time does it take, and what will Genter ask me?](../getting-started/your-time-and-questions.md) {clock}
+- [Can leads from my pages go to HubSpot or another CRM?](../integrations/crm.md) {handshake}
 
 <!-- /widget -->

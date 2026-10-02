@@ -96,11 +96,11 @@ Telegram's **Group Privacy** is on by default, and then a plain `@bot` mention i
 
 <!-- widget:cards plain cols=2 -->
 
-- While the agent is still working {loader} {color:blue}
+- While the agent is still working {loader}
 
   On the task that asked, your reply joins that work.
 
-- After it has finished {rotate-ccw} {color:green}
+- After it has finished {rotate-ccw}
 
   Your reply starts a new run that is told what was asked and what you answered.
 
@@ -126,7 +126,7 @@ The agent posts only to chats and channels linked to the account.
 
 <!-- widget:cards plain cols=2 -->
 
-- [How much of my time does Genter take, and what will it ask me?](../getting-started/your-time-and-questions.md) {clock} {color:amber}
-- [Integrations](./README.md) {plug} {color:gray}
+- [How much of my time does Genter take, and what will it ask me?](../getting-started/your-time-and-questions.md) {clock}
+- [Integrations](./README.md) {plug}
 
 <!-- /widget -->

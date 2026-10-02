@@ -30,10 +30,10 @@ Because the number it could print would be noise, and a noisy number reads like 
 
 <!-- widget:cards plain cols=4 -->
 
-- [Too few visits](#too-few-visits) — Fewer than 30 on either side of a change. {users} {color:blue}
-- [The period is not over](#the-period-is-not-over) — Half a week is not comparable to a whole one. {calendar-clock} {color:amber}
-- [Nothing to compare against](#nothing-to-compare-against) — A zero before, or no control group. {scale} {color:purple}
-- [Empty is not zero](#empty-is-not-zero) — Not measured is shown as `—`. {circle-dashed} {color:gray}
+- [Too few visits](#too-few-visits) — Fewer than 30 on either side of a change. {users}
+- [The period is not over](#the-period-is-not-over) — Half a week is not comparable to a whole one. {calendar-clock}
+- [Nothing to compare against](#nothing-to-compare-against) — A zero before, or no control group. {scale}
+- [Empty is not zero](#empty-is-not-zero) — Not measured is shown as `—`. {circle-dashed}
 
 <!-- /widget -->
 
@@ -53,7 +53,7 @@ A change is judged on a full period after it. Until that period has finished, th
 
 ## Empty is not zero
 
-<!-- widget:callout type=info -->
+<!-- widget:callout type=note -->
 
 A figure Genter cannot state is left empty (`—`), never shown as `0`. Zero would read as "we measured and nothing happened"; empty means "not measured".
 
@@ -63,7 +63,7 @@ A figure Genter cannot state is left empty (`—`), never shown as `0`. Zero wou
 
 <!-- widget:cards plain cols=2 -->
 
-- [Can I see how many sales the pages brought?](./sales-from-pages.md) {circle-dollar-sign} {color:emerald}
-- [How does Genter keep pages current when the product changes?](../publishing/keeping-pages-current.md) {refresh-cw} {color:green}
+- [Can I see how many sales the pages brought?](./sales-from-pages.md) {circle-dollar-sign}
+- [How does Genter keep pages current when the product changes?](../publishing/keeping-pages-current.md) {refresh-cw}
 
 <!-- /widget -->

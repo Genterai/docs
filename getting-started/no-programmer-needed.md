@@ -31,10 +31,10 @@ One of these is enough:
 
 <!-- widget:cards plain cols=4 -->
 
-- A project name {tag} {color:green}
-- Your website {globe} {color:blue}
-- Files about your product {file-text} {color:purple}
-- A short description of what you sell {message-square} {color:yellow}
+- A project name {tag}
+- Your website {globe}
+- Files about your product {file-text}
+- A short description of what you sell {message-square}
 
 <!-- /widget -->
 
@@ -56,7 +56,7 @@ Only for steps you choose to take later, such as publishing to your own GitHub r
 
 <!-- widget:cards plain cols=2 -->
 
-- [Can I use Genter without GitHub?](./without-github.md) {log-in} {color:blue}
-- [How do I upload a document about what we sell if there's no website?](./upload-a-document.md) {file-up} {color:purple}
+- [Can I use Genter without GitHub?](./without-github.md) {log-in}
+- [How do I upload a document about what we sell if there's no website?](./upload-a-document.md) {file-up}
 
 <!-- /widget -->

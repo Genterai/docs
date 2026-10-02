@@ -41,19 +41,19 @@ Attach it when you create the project. A website is not needed: a document, or a
 
 <!-- widget:cards plain cols=4 -->
 
-- PDF {file-text} {color:red}
+- PDF {file-text}
 
   `.pdf`
 
-- DOCX {file-type} {color:blue}
+- DOCX {file-type}
 
   `.docx`
 
-- Markdown {file-code} {color:purple}
+- Markdown {file-code}
 
   `.md`, `.markdown`, `.mdx`
 
-- Plain text {file} {color:gray}
+- Plain text {file}
 
   `.txt`
 
@@ -83,7 +83,7 @@ The description you type is a brief for the agent. It is never shown as a page.
 
 <!-- widget:cards plain cols=2 -->
 
-- [Can I use Genter without GitHub?](./without-github.md) {log-in} {color:blue}
-- [How much of my time does Genter take, and what will it ask me?](./your-time-and-questions.md) {clock} {color:amber}
+- [Can I use Genter without GitHub?](./without-github.md) {log-in}
+- [How much of my time does Genter take, and what will it ask me?](./your-time-and-questions.md) {clock}
 
 <!-- /widget -->

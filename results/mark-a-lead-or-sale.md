@@ -41,19 +41,19 @@ With **goals**. A goal names one thing a reader does on your pages that matters 
 
 <!-- widget:cards plain cols=2 -->
 
-- Page {file-check} {color:green}
+- Page {file-check}
 
   Counts when a reader opens a page. Example: the "Thank you" page after a request.
 
-- Section {heading} {color:blue}
+- Section {heading}
 
   Counts when a reader scrolls to a heading. Example: reaches "Pricing" on a long page.
 
-- Action {mouse-pointer-click} {color:purple}
+- Action {mouse-pointer-click}
 
   Counts when a reader does something the pages already track. Example: copies code, searches, asks the assistant.
 
-- Link out {external-link} {color:amber}
+- Link out {external-link}
 
   Counts when a reader leaves for another site, matched by host. Example: clicks through to `app.example.com/signup`.
 
@@ -103,7 +103,7 @@ Goals count what readers do **on your pages**. They do not read your payments or
 
 <!-- widget:cards plain cols=2 -->
 
-- [Can I see how many sales the pages brought?](./sales-from-pages.md) {circle-dollar-sign} {color:emerald}
-- [Can leads from my pages go to HubSpot or another CRM?](../integrations/crm.md) {handshake} {color:orange}
+- [Can I see how many sales the pages brought?](./sales-from-pages.md) {circle-dollar-sign}
+- [Can leads from my pages go to HubSpot or another CRM?](../integrations/crm.md) {handshake}
 
 <!-- /widget -->

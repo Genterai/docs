@@ -40,9 +40,9 @@ From **sources** you connect:
 
 <!-- widget:cards plain cols=3 -->
 
-- Your repository {git-branch} {color:purple}
-- Your website {globe} {color:blue}
-- A single page {file-text} {color:green}
+- Your repository {git-branch}
+- Your website {globe}
+- A single page {file-text}
 
 <!-- /widget -->
 
@@ -62,7 +62,7 @@ Every page carries a **status** and a **version** in its own frontmatter, so bot
 | Deprecated | Still published, no longer current |
 | Archived | Out of use |
 
-<!-- widget:callout type=info -->
+<!-- widget:callout type=note -->
 
 Agents build new work only on **Approved** or **Locked** pages. Editing an approved page raises its version and returns it to **In review**: the sign-off was for the old text.
 
@@ -98,7 +98,7 @@ The **change history** lists each documentation commit and compares traffic in t
 
 <!-- widget:cards plain cols=2 -->
 
-- [Does Genter publish on its own, or does everything wait for my approval?](./does-genter-publish-on-its-own.md) {git-pull-request} {color:purple}
-- [Does Genter work with docs already on Mintlify, GitBook or Docusaurus?](../site/existing-docs-platforms.md) {book-open} {color:blue}
+- [Does Genter publish on its own, or does everything wait for my approval?](./does-genter-publish-on-its-own.md) {git-pull-request}
+- [Does Genter work with docs already on Mintlify, GitBook or Docusaurus?](../site/existing-docs-platforms.md) {book-open}
 
 <!-- /widget -->
