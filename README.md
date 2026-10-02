@@ -1,7 +1,6 @@
 ---
 title: "Genter — your agent to enter the market"
 description: "Genter is your agent to enter the market. It learns your product, answers your buyers' questions where they ask — ChatGPT, Claude, Google — and proves what worked."
-layout: landing
 facts:
   - claim: "Genter — your agent to enter the market; it learns your product, answers your buyers' questions where they ask and proves what worked."
     class: neutral
