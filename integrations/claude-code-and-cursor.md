@@ -4,12 +4,12 @@ description: "Copy the one-line command or config for your AI client from the pa
 answers:
   - "How do I connect Genter to Claude Code or Cursor?"  # buyer-questions.md #46
 facts:
-  - claim: "The panel's MCP tab has an Install MCP Server card with ready-to-copy setup for Claude Code, the Claude app, Cursor, Codex CLI, Windsurf, Cline, Gemini CLI, Copilot in VS Code and ChatGPT."
+  - claim: "In the panel, Connect ▸ MCP server shows the endpoint, the ready `claude mcp add` line for Claude Code and the JSON block for Cursor; any other MCP client takes the same endpoint."
     class: neutral
-    source: "Genterai/app src/app/mcp/_components/InstallSelector.tsx; src/components/admin-cards/manifest.ts (mcp.install)"
+    source: "Genterai/app src/components/integrations/ConnectorDetailPage.tsx; src/lib/integrations/registry.ts (mcp)"
   - claim: "Claude Code connects with one `claude mcp add --transport http` command run in a terminal; Cursor takes a JSON block in ~/.cursor/mcp.json."
     class: neutral
-    source: "Genterai/app src/app/mcp/_components/InstallSelector.tsx"
+    source: "Genterai/app src/components/integrations/ConnectorDetailPage.tsx"
   - claim: "On first use the client opens a Genter approval page; the connection works after you press Authorize."
     class: neutral
     source: "Genterai/specs specs/044-mcp-tokens-oauth-and-agent-keys FR-002, FR-004, FR-015"
@@ -29,7 +29,7 @@ facts:
 
 # How do I connect Genter to Claude Code or Cursor?
 
-Open the **MCP** tab in the panel, copy the setup for your client from the **Install MCP Server** card, and approve the connection once. After that your assistant can read your project's docs and hand work to the Genter agent.
+In the panel open **Connect**, pick **MCP server**, copy the setup for your client from the card, and approve the connection once. After that your assistant can read your project's docs and hand work to the Genter agent.
 
 ## What do I paste where?
 
@@ -49,7 +49,7 @@ Paste the JSON block from the card into `~/.cursor/mcp.json`. Merge it into the 
 
 <!-- /widget -->
 
-The same card has setup for the Claude app, Codex CLI, Windsurf, Cline, Gemini CLI, Copilot in VS Code and ChatGPT.
+Any other MCP client — Codex CLI, Windsurf, Cline and the rest — takes the **Endpoint** from the same card.
 
 ## What happens on first use?
 
