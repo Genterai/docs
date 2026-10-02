@@ -59,11 +59,11 @@ The language your pages are written in is detected from your description, files 
 
 <!-- widget:cards plain cols=2 -->
 
-- Until a page is translated {file-clock} {color:blue}
+- Until a page is translated {file-clock}
 
   Readers see the original page, and the menu stays in the original language with it — never a translated menu over an untranslated page.
 
-- Switching a language off {toggle-left} {color:green}
+- Switching a language off {toggle-left}
 
   Deletes nothing. Switching it back on does not translate unchanged pages again.
 
@@ -89,6 +89,6 @@ A project is checked in one region at a time. Answers differ by country, so a re
 
 <!-- widget:cards plain cols=2 -->
 
-- [Which AI assistants does Genter check?](../visibility/which-ai-engines.md) {radar} {color:cyan}
+- [Which AI assistants does Genter check?](../visibility/which-ai-engines.md) {radar}
 
 <!-- /widget -->

@@ -30,8 +30,8 @@ What Genter measures instead are the two sides you can see:
 
 <!-- widget:cards plain cols=2 -->
 
-- [How many visitors AI sends you](#how-many-visitors-does-ai-send-me) — Visits from an AI assistant's answer, counted as their own channel. {bot} {color:blue}
-- [Where AI answers without you](#where-does-ai-answer-without-me) — The mention check, on your buyers' saved questions. {radar} {color:purple}
+- [How many visitors AI sends you](#how-many-visitors-does-ai-send-me) — Visits from an AI assistant's answer, counted as their own channel. {bot}
+- [Where AI answers without you](#where-does-ai-answer-without-me) — The mention check, on your buyers' saved questions. {radar}
 
 <!-- /widget -->
 
@@ -57,8 +57,8 @@ A question where the answer names a competitor and not you is the visitor you ar
 
 <!-- widget:cards plain cols=2 -->
 
-- [Customers say they found us through ChatGPT — how do I check?](./found-through-chatgpt.md) {bot} {color:teal}
-- [Why doesn't ChatGPT mention my product?](./why-ai-doesnt-name-you.md) {eye-off} {color:pink}
-- [Which AI assistants does Genter check?](./which-ai-engines.md) {radar} {color:cyan}
+- [Customers say they found us through ChatGPT — how do I check?](./found-through-chatgpt.md) {bot}
+- [Why doesn't ChatGPT mention my product?](./why-ai-doesnt-name-you.md) {eye-off}
+- [Which AI assistants does Genter check?](./which-ai-engines.md) {radar}
 
 <!-- /widget -->

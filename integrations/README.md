@@ -11,9 +11,9 @@ This section answers questions about the tools Genter connects to, and in which 
 
 <!-- widget:cards feature cols=2 -->
 
-- [Can leads from my pages go to HubSpot or another CRM?](./crm.md) {handshake} {color:orange}
+- [Can leads from my pages go to HubSpot or another CRM?](./crm.md) {handshake}
 - [How do I connect a whole GitHub organization?](./github-organization.md) {logos:github-icon}
-- [How do I answer Genter's questions from Telegram or Slack?](./telegram-and-slack.md) {message-circle} {color:sky}
-- [How do I connect Genter to Claude Code or Cursor?](./claude-code-and-cursor.md) {terminal} {color:violet}
+- [How do I answer Genter's questions from Telegram or Slack?](./telegram-and-slack.md) {message-circle}
+- [How do I connect Genter to Claude Code or Cursor?](./claude-code-and-cursor.md) {terminal}
 
 <!-- /widget -->

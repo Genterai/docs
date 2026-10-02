@@ -62,7 +62,7 @@ Only if you want the pages in a repository you own:
 
 <!-- widget:cards plain cols=2 -->
 
-- [Do I need a programmer to start with Genter?](./no-programmer-needed.md) {rocket} {color:green}
-- [How do I upload a document about what we sell if there's no website?](./upload-a-document.md) {file-up} {color:purple}
+- [Do I need a programmer to start with Genter?](./no-programmer-needed.md) {rocket}
+- [How do I upload a document about what we sell if there's no website?](./upload-a-document.md) {file-up}
 
 <!-- /widget -->

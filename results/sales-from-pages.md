@@ -34,11 +34,11 @@ From two settings you give it:
 
 <!-- widget:cards plain cols=2 -->
 
-- A call-to-action link {link} {color:blue}
+- A call-to-action link {link}
 
   Where a buyer goes to sign up or buy, for example `app.acme.com/signup`.
 
-- An average product price {tag} {color:green}
+- An average product price {tag}
 
   What one sale is worth to you on average.
 
@@ -46,7 +46,7 @@ From two settings you give it:
 
 A visit that clicks through to that link's host counts as a **conversion**.
 
-<!-- widget:callout type=info -->
+<!-- widget:callout type=note -->
 
 **Revenue = conversions × your average price.**
 
@@ -76,8 +76,8 @@ No. Genter does not import orders and does not send conversions to a CRM or bill
 
 <!-- widget:cards plain cols=2 -->
 
-- [How do I mark what counts as a lead or a sale?](./mark-a-lead-or-sale.md) {target} {color:red}
-- [Why does Genter say "can't tell" instead of a number?](./cant-tell.md) {circle-question-mark} {color:amber}
-- [Can leads from my pages go to HubSpot or another CRM?](../integrations/crm.md) {handshake} {color:orange}
+- [How do I mark what counts as a lead or a sale?](./mark-a-lead-or-sale.md) {target}
+- [Why does Genter say "can't tell" instead of a number?](./cant-tell.md) {circle-question-mark}
+- [Can leads from my pages go to HubSpot or another CRM?](../integrations/crm.md) {handshake}
 
 <!-- /widget -->

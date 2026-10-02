@@ -40,11 +40,11 @@ Genter builds two files and keeps them in step with your pages:
 
 <!-- widget:cards plain cols=2 -->
 
-- `llms.txt` {list} {color:blue}
+- `llms.txt` {list}
 
   A short index in the [llmstxt.org](https://llmstxt.org) format. Each page is listed by its title with two addresses: the page and its Markdown version. The file also names the site's languages and shows how a translated address looks.
 
-- `llms-full.txt` {file-text} {color:purple}
+- `llms-full.txt` {file-text}
 
   The full text of every page. On a very large site it is capped, and the file says so at the top.
 
@@ -58,11 +58,11 @@ Whether it changed anything. `llms.txt` hands AI assistants a list of your pages
 
 <!-- widget:cards plain cols=2 -->
 
-- Mention check {radar} {color:green}
+- Mention check {radar}
 
   Your buyers' saved questions, asked to AI assistants and search engines: whether the answer names you, where you rank, and who else is there.
 
-- Expectation on a change {target} {color:amber}
+- Expectation on a change {target}
 
   What a change should do — which page, which measurement, the target and the date to check. On that date Genter compares the readings before and after.
 
@@ -72,10 +72,10 @@ The verdict on a change is computed from the two recorded readings, not by a mod
 
 <!-- widget:cards plain cols=4 -->
 
-- Worked {circle-check} {color:green}
-- Made worse {circle-x} {color:red}
-- No distinguishable effect {circle-minus} {color:gray}
-- Can't tell {circle-question-mark} {color:amber}
+- Worked {circle-check}
+- Made worse {circle-x}
+- No distinguishable effect {circle-minus}
+- Can't tell {circle-question-mark}
 
 <!-- /widget -->
 
@@ -83,8 +83,8 @@ The verdict on a change is computed from the two recorded readings, not by a mod
 
 <!-- widget:cards plain cols=2 -->
 
-- [Which AI assistants does Genter check?](./which-ai-engines.md) {radar} {color:cyan}
-- [Why doesn't ChatGPT mention my product?](./why-ai-doesnt-name-you.md) {eye-off} {color:pink}
-- [What are GEO and AEO, and how are they different from SEO?](./geo-vs-seo.md) {sparkles} {color:violet}
+- [Which AI assistants does Genter check?](./which-ai-engines.md) {radar}
+- [Why doesn't ChatGPT mention my product?](./why-ai-doesnt-name-you.md) {eye-off}
+- [What are GEO and AEO, and how are they different from SEO?](./geo-vs-seo.md) {sparkles}
 
 <!-- /widget -->

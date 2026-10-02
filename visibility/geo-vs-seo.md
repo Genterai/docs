@@ -48,7 +48,7 @@ A page that fails SEO basics — not indexed, blocked from crawling — cannot b
 
 <!-- widget:cards plain cols=2 -->
 
-- [Why doesn't ChatGPT mention my product?](./why-ai-doesnt-name-you.md) {eye-off} {color:pink}
-- [Which AI assistants does Genter check?](./which-ai-engines.md) {radar} {color:cyan}
+- [Why doesn't ChatGPT mention my product?](./why-ai-doesnt-name-you.md) {eye-off}
+- [Which AI assistants does Genter check?](./which-ai-engines.md) {radar}
 
 <!-- /widget -->

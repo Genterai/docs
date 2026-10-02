@@ -77,6 +77,6 @@ No. No Genter connector writes to these platforms.
 
 <!-- widget:cards plain cols=2 -->
 
-- [Can I use Genter without GitHub?](../getting-started/without-github.md) {log-in} {color:blue}
+- [Can I use Genter without GitHub?](../getting-started/without-github.md) {log-in}
 
 <!-- /widget -->

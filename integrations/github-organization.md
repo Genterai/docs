@@ -95,7 +95,7 @@ To keep your team's projects together, open your organization in Genter first: p
 
 <!-- widget:cards plain cols=2 -->
 
-- [Can I use Genter without GitHub?](../getting-started/without-github.md) {log-in} {color:blue}
-- [Integrations](./README.md) {plug} {color:gray}
+- [Can I use Genter without GitHub?](../getting-started/without-github.md) {log-in}
+- [Integrations](./README.md) {plug}
 
 <!-- /widget -->

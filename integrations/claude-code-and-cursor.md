@@ -71,7 +71,7 @@ To change pages, ask the Genter agent through the assistant. The agent does the 
 
 <!-- widget:cards plain cols=2 -->
 
-- [Integrations](./README.md) {plug} {color:gray}
-- [How do I answer Genter's questions from Telegram or Slack?](./telegram-and-slack.md) {message-circle} {color:sky}
+- [Integrations](./README.md) {plug}
+- [How do I answer Genter's questions from Telegram or Slack?](./telegram-and-slack.md) {message-circle}
 
 <!-- /widget -->

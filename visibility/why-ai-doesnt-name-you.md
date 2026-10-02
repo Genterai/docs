@@ -62,7 +62,7 @@ For each checked question Genter records the other sites on the results page and
 
 <!-- widget:cards plain cols=2 -->
 
-- [What are GEO and AEO?](./geo-vs-seo.md) {sparkles} {color:violet}
-- [Why does the mention check show no data?](./check-shows-no-data.md) {circle-dashed} {color:gray}
+- [What are GEO and AEO?](./geo-vs-seo.md) {sparkles}
+- [Why does the mention check show no data?](./check-shows-no-data.md) {circle-dashed}
 
 <!-- /widget -->
