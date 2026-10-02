@@ -16,6 +16,7 @@ This section answers questions about being named: in AI answers (ChatGPT, Perple
 - [Which AI assistants does Genter check?](./which-ai-engines.md) {radar} {color:cyan}
 - [Why does the mention check show no data?](./check-shows-no-data.md) {circle-dashed} {color:gray}
 - [How many visitors am I losing because people ask AI instead of Google?](./visitors-lost-to-ai.md) {trending-down} {color:rose}
+- [What does Genter do if my traffic or search visibility drops?](./traffic-or-visibility-dropped.md) {activity} {color:orange}
 - [Customers say they found us through ChatGPT — how do I check?](./found-through-chatgpt.md) {bot} {color:teal}
 - [What questions do people ask ChatGPT about my product?](./what-buyers-ask-ai.md) {message-square} {color:blue}
 - [Where does Genter learn which questions my buyers ask?](./where-questions-come-from.md) {search} {color:amber}
