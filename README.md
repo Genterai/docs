@@ -10,8 +10,8 @@ description: "Genter is your agent to enter the market. It learns your product, 
 Genter learns your product, answers your buyers' questions where they ask — ChatGPT, Claude, Google — and proves what worked.
 
 - Paste your website address…
-- Does ChatGPT name your product?
-- Who do AI answers name instead of you?
+- …or a GitHub repo, like github.com/acme/app
+- …or describe your product in one sentence
 
 [Check my site](/report)
 
